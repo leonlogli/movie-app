@@ -1,0 +1,25 @@
+.MovieDetail {
+  padding: 16px 15px 30px 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.MovieDetail img {
+  width: 300px;
+  height: 300px;
+  margin-right: 32px;
+  border-radius: 16px;
+}
+
+.MovieDetail label {
+  font-weight: 500;
+}
+
+.MovieDetail .info {
+  max-width: 860px;
+}
+
+@media screen and (max-width: 768px) {
+  label {
+    margin-right: 12px;
+  }
+}

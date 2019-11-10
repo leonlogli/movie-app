@@ -1,0 +1,20 @@
+.MovieCard {
+  cursor: pointer;
+  width: 245px;
+  border-radius: 16px !important;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.MovieCard img {
+  border-radius: 16px;
+  width: calc(100% - 20px);
+  height: 200px;
+  margin: 10px;
+}
+
+.MovieCard label {
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+}
